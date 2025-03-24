@@ -1,21 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Saif's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saif's Portfolio | Senior Data Scientist</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Saif Muhammad Musfir Rahman</h1>
-    <p>Senior Data Scientist | NLP | Optimization | AI</p>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Saif Muhammad Musfir Rahman</h1>
+            <p>Senior Data Scientist | NLP | AI | Optimization</p>
+        </div>
+    </header>
 
-    <h2>Projects</h2>
-    <ul>
-        <li><a href="projects/competitive-intelligence.html">Competitive Intelligence Tool</a></li>
-        <li><a href="projects/web-to-store-analysis.html">Web-to-Store Customer Analysis</a></li>
-        <li><a href="projects/supply-piloting.html">Supply Piloting Automation</a></li>
-    </ul>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="assets/Resume_Saif.pdf" target="_blank">Resume</a></li>
+        </ul>
+    </nav>
 
-    <h2>Contact</h2>
-    <p><a href="mailto:ridadsaif@yahoo.com">ridadsaif@yahoo.com</a></p>
+    <!-- Main Section -->
+    <section id="projects" class="container">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Competitive Intelligence Tool</h3>
+                <p>AI-driven platform for analyzing competitor data and market trends.</p>
+                <a href="projects/competitive-intelligence.html" class="btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Web-to-Store Customer Analysis</h3>
+                <p>Analyzing online user behavior to optimize in-store experience.</p>
+                <a href="projects/web-to-store-analysis.html" class="btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Supply Piloting Automation</h3>
+                <p>Automated system to streamline supply chain operations.</p>
+                <a href="projects/supply-piloting.html" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p>Have a project idea or want to collaborate? Let's connect!</p>
+        <p><a href="mailto:ridadsaif@yahoo.com" class="contact-btn"><i class="fas fa-envelope"></i> Email Me</a></p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/saif-rahman" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/saif-rahman" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Saif Muhammad Musfir Rahman | All rights reserved.</p>
+    </footer>
 </body>
 </html>
