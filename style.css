@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #2d3e50;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #1c2938;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4da8da;
+}
+
+/* Projects Section */
+#projects {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.project-card .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4da8da;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-card .btn:hover {
+    background-color: #357aa8;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f4f4f9;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact-btn {
+    text-decoration: none;
+    color: #4da8da;
+    font-size: 1.2rem;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #4da8da;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #357aa8;
+}
+
+/* Footer */
+footer {
+    background-color: #1c2938;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
